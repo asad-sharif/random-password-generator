@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #1F2937;
+    --accent-color: #10B981;
+    --font-family: 'Karla', sans-serif; /* Ensure consistency with font-family declaration */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+    font-family: var(--font-family);
+}
+
+.container {
+    width: 80%;
+    margin: 7rem auto;
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 0.99;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.dot {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    margin: 3rem 0;
+    cursor: pointer;
+
+}
+
+
+
+hr {
+    border: 1px solid #2f3e53;
+}
+
+.generated-passwords {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.password-display {
+    background-color: #273549;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 2rem 0;
+    text-indent: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: lighter;
+}
