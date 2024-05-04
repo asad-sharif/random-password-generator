@@ -63,24 +63,26 @@ button {
 
 hr {
     border: 1px solid #2f3e53;
+    margin: 2rem 0;
 }
 
 .generated-passwords {
     display: flex;
     justify-content: start;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: .8rem;
 }
 
 .password-display {
     background-color: #273549;
-    width: 300px;
+    width: 200px;
+    min-width: fit-content;
     height: 50px;
     border-radius: 5px;
-    margin: 2rem 0;
-    text-indent: 1rem;
     font-size: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: start;
     font-weight: lighter;
+    padding: 1rem;
 }
